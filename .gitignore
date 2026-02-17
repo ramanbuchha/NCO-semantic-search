@@ -1,0 +1,30 @@
+# virtual env
+venv/
+.venv/
+
+# python junk
+__pycache__/
+*.pyc
+
+# huggingface cache / models
+.cache/
+**/.cache/
+
+# faiss / embeddings files
+*.faiss
+*.index
+*.pkl
+*.npy
+
+# csv large outputs
+*.csv
+
+# env files
+.env
+.env.local
+
+# vscode
+.vscode/
+
+# notebooks checkpoints
+.ipynb_checkpoints/
